@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer>
-            <p>copyright @/dynamic tear/</p>
-        </footer>
-    );
+  const today = new Date();
+  return (
+    <footer>
+      <p>&copy; copyright {today.getFullYear()}</p>
+    </footer>
+  );
 };
 
 export default Footer;
