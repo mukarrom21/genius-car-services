@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   const today = new Date();
   return (
-    <footer>
-      <p>&copy; copyright {today.getFullYear()}</p>
+    <footer className="bg-primary py-2 text-white">
+      <h4 className="text-center">&copy; copyright {today.getFullYear()}</h4>
     </footer>
   );
 };
